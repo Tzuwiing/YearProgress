@@ -1,6 +1,8 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import StudentProfile from "./components/Profile";
+import AcademicProgress from "./components/ShortAcademic";
+import EkstrakurikulerProgress from "./components/ShortExtra";
 
 function App() {
   return (
@@ -8,6 +10,8 @@ function App() {
       <Navbar />
       <Hero />
       <StudentProfile />
+      <AcademicProgress />
+      <EkstrakurikulerProgress />
     </div>
   );
 }
