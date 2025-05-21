@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const Hero = () => {
+const Hero = ({ title, description }) => {
   return (
     <section className="bg-purple-100 py-64 text-center">
       <motion.div
@@ -11,11 +11,10 @@ const Hero = () => {
         transition={{ duration: 1, ease: "easeOut" }}
       >
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-800 mb-6 leading-snug">
-          Progress Tahunan <br /> Akademik & Ekstrakurikuler
+          {title}
         </h1>
         <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-2xl mx-auto">
-          Menyajikan progres tahunan proyek kegiatan ekstrakurikuler & akademik
-          secara ringkas dan sederhana.
+          {description}
         </p>
       </motion.div>
     </section>

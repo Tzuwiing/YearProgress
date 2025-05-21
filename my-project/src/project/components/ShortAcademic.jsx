@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const cardData = [
   {
@@ -79,8 +80,8 @@ const AcademicProgress = () => {
                 {card.title}
               </h5>
               <p className="mb-4 text-gray-700">{card.description}</p>
-              <a
-                href="#"
+              <Link
+                to="/academic"
                 className="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-blue-700 rounded-lg hover:bg-blue-800 transition"
               >
                 Pelajari Lebih Lanjut
@@ -98,20 +99,26 @@ const AcademicProgress = () => {
                     d="M5 12h14M12 5l7 7-7 7"
                   ></path>
                 </svg>
-              </a>
+              </Link>
             </div>
           </motion.div>
         ))}
       </div>
 
-      <div className="mt-16 text-center">
-        <a
-          href="#"
+      <motion.div
+        className="mt-16 text-center"
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, delay: 0.4 }}
+        viewport={{ once: true }}
+      >
+        <Link
+          to="/academic"
           className="inline-block px-6 py-3 bg-indigo-600 text-white text-lg font-medium rounded-lg hover:bg-indigo-700 transition"
         >
           Pelajari Lebih Lanjut
-        </a>
-      </div>
+        </Link>
+      </motion.div>
     </section>
   );
 };
