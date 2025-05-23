@@ -6,6 +6,7 @@ import AcademicProgress from "./academic";
 import Home from "./home"; // Jika ada
 import Footer from "./components/footer";
 import ScrollToTop from "./components/ScrollTop";
+import EkstrakurikulerProgress from "./ekskul";
 
 function App1() {
   return (
@@ -15,7 +16,7 @@ function App1() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/academic" element={<AcademicProgress />} />
-        {/* <Route path="/ekstrakurikuler" element={<Ekstrakurikuler />} /> */}
+        <Route path="/ekstrakurikuler" element={<EkstrakurikulerProgress />} />
       </Routes>
       <Footer />
     </Router>
