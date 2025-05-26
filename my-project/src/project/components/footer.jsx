@@ -15,11 +15,10 @@ const Footer = () => {
         {/* Brand */}
         <div>
           <h2 className="text-2xl font-bold mb-4 text-white">
-            Zukhruful Qauli
+            Jusuf Fathan Nuradly
           </h2>
           <p className="text-sm text-purple-200">
-            Mendidik santri secara utuh melalui integrasi nilai spiritual dan
-            ilmu pengetahuan.
+            Seorang siswa yang bersekolah di SMA Plus Abu Dzar
           </p>
         </div>
 
@@ -42,7 +41,7 @@ const Footer = () => {
               Akademik
             </a>
             <a
-              href="/eskul"
+              href="/ekstrakurikuler"
               className="flex items-center gap-2 hover:text-white transition font-medium"
             >
               <ArrowRight size={16} />
@@ -76,7 +75,8 @@ const Footer = () => {
 
       {/* Copyright */}
       <div className="border-t border-purple-600 mt-12 pt-6 text-center text-sm text-purple-200">
-        &copy; {new Date().getFullYear()} Zukhruful Qauli. All rights reserved.
+        &copy; {new Date().getFullYear()} Jusuf Fathan Nuradly. All rights
+        reserved.
       </div>
     </footer>
   );

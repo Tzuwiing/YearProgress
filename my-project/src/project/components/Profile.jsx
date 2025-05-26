@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import studentPhoto from "../../assets/bulat..webp";
+import studentPhoto from "../../assets/Profile.jpg";
 
 const StudentProfile = () => {
   return (
@@ -50,22 +50,27 @@ const StudentProfile = () => {
             </h2>
             <ul className="space-y-3 leading-relaxed">
               <li>
-                <strong>Nama:</strong> Ahmad Zaki
+                <strong>Nama:</strong> Jusuf fathan Nuradly
               </li>
               <li>
-                <strong>Kelas:</strong> X IPA 1
+                <strong>Kelas:</strong> X Hamzah Al-Kufiy
               </li>
               <li>
-                <strong>NIS:</strong> 20250123
+                <strong>No.Induk:</strong> 05211007
               </li>
               <li>
-                <strong>Tanggal Lahir:</strong> 15 Januari 2009
+                <strong>NISN:</strong> 0081818655
               </li>
               <li>
-                <strong>Alamat:</strong> Jl. Pendidikan No. 12, Bandung
+                <strong>Tanggal Lahir:</strong> 19 September 2008
               </li>
               <li>
-                <strong>Ekstrakurikuler:</strong> Futsal, Tahfidz
+                <strong>Alamat:</strong> Jl. Masjid VII No: 10 A1/07 Sudimara
+                Timur, Ciledug
+              </li>
+              <li>
+                <strong>Ekstrakurikuler:</strong> Taekwondo, Panahan, Renang,
+                Futsal
               </li>
             </ul>
           </div>

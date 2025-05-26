@@ -3,7 +3,9 @@ import { motion } from "framer-motion";
 import { Carousel } from "react-responsive-carousel";
 import { User } from "lucide-react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import dzikirImg from "../../assets/ss4.png";
+import BMIimg from "../../assets/bmicalc.png";
+import Financeimg from "../../assets/Finance.png";
+import Commerceimg from "../../assets/commerce.png";
 
 const materi = [
   { name: "Git", progress: 90 },
@@ -15,17 +17,17 @@ const materi = [
 const project = [
   {
     title: "Website BMI Calculator Sederhana",
-    image: dzikirImg,
+    image: BMIimg,
     link: "https://bmicalculating.netlify.app/",
   },
   {
     title: "Website E-Commerce Sederhana",
-    // image: profilImg,
-    link: "https://santriprofile.vercel.app",
+    image: Commerceimg,
+    link: "https://tzuwiing.vercel.app",
   },
   {
     title: "Website Finance Tracker Sederhana ",
-    // image: zakatImg,
+    image: Financeimg,
     link: "https://tzunance.netlify.app/",
   },
 ];
@@ -52,7 +54,7 @@ const ItSection = () => {
           <div className="mt-6 flex justify-center">
             <div className="flex items-center gap-2 bg-gray-100 px-4 py-2 rounded-lg shadow-sm">
               <User size={18} className="text-indigo-600" />
-              <span className="font-medium">Ust. Ahmad Zainuddin, Lc.</span>
+              <span className="font-medium">Ust. Reza Berlyva</span>
             </div>
           </div>
         </motion.div>

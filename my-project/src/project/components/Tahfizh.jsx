@@ -60,11 +60,11 @@ const TahfizhSection = () => {
         >
           <div className="flex items-center gap-2 bg-gray-100 px-4 py-2 rounded-lg shadow-sm">
             <User size={18} className="text-indigo-600" />
-            <span className="font-medium">Ust. Ahmad Zainuddin, Lc.</span>
+            <span className="font-medium">Ust. Muhandis Abdullah Alkaf</span>
           </div>
           <div className="flex items-center gap-2 bg-gray-100 px-4 py-2 rounded-lg shadow-sm">
             <Users size={18} className="text-emerald-600" />
-            <span className="font-medium">Halaqah Asy-Syafi'i</span>
+            <span className="font-medium">Halaqah Imam Mahfuzh At-Tarmasi</span>
           </div>
         </motion.div>
 
