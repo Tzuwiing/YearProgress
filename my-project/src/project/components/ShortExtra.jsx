@@ -5,7 +5,6 @@ import taekwondoImg from "../../assets/taekwondo.jpg";
 import panahanImg from "../../assets/panahan.jpg";
 import renangImg from "../../assets/renang.jpg";
 
-
 const ekskulData = [
   {
     category: "Futsal",
@@ -36,7 +35,6 @@ const ekskulData = [
     image: renangImg,
   },
 ];
-
 
 const EkstrakurikulerProgress = () => {
   return (
@@ -86,7 +84,7 @@ const EkstrakurikulerProgress = () => {
               </h5>
               <p className="mb-4 text-gray-700">{card.description}</p>
               <a
-                href="#"
+                href="/ekstrakurikuler"
                 className="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-blue-700 rounded-lg hover:bg-blue-800 transition"
               >
                 Pelajari Lebih Lanjut
@@ -112,7 +110,7 @@ const EkstrakurikulerProgress = () => {
 
       <div className="mt-16 text-center">
         <a
-          href="#"
+          href="/ekstrakurikuler"
           className="inline-block px-6 py-3 bg-indigo-600 text-white text-lg font-medium rounded-lg hover:bg-indigo-700 transition"
         >
           Pelajari Lebih Lanjut
